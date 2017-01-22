@@ -19,14 +19,14 @@ center отрисовывает время по всему контенту.
 * idElement : "" - указываем id элемента или класс элемента
 * time : "00:00:00" - указываем время в текстовом формате
 
-`<div id="number" style="background: #f5f9da; height: 500px; width: 100%;"></div>
- <script>
-	new graphicSVG().numberTime({
-		idElement : "#number",
-		center: true,
-		time: "22:31:11",
-	});
- </script>`
+>`<div id="number" style="background: #f5f9da; height: 500px; width: 100%;"></div>
+> <script>
+>	new graphicSVG().numberTime({
+>		idElement : "#number",
+>		center: true,
+>		time: "22:31:11",
+>	});
+> </script>`
 
 ![screenshot of sample](http://nikol73.esy.es/gitHub/img/number0_center.jpg)
 
