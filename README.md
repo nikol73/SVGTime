@@ -48,6 +48,7 @@ background применяет цвет
 	});
 </script>
 ```
+
 ![screenshot of sample](http://nikol73.esy.es/gitHub/img/number0_background.jpg)
 ***
 ## 3 Способ.
@@ -66,6 +67,7 @@ backgroundM записывается массив цветов одной цыф
 	});
 </script>
 ```
+
 ![screenshot of sample](http://nikol73.esy.es/gitHub/img/number0_backgroundM.jpg)
 ***
 
