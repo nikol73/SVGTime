@@ -1,0 +1,52 @@
+<html>
+	<head>
+		<title>Number</title>
+		<script src="js/jquery.min.js" type="text/javascript"></script>
+		<script src="js/graphicSVG.js" type="text/javascript"></script>
+		<script src="js/animationSVG.js" type="text/javascript"></script>
+	<head>
+	<body>
+		<div id="number" style="background: #f5f9da; height: 500px; width: 100%;"></div>
+		<div id="number4" style="background: #f5f9da; height: 500px; width: 100%;"></div>
+		<div id="number2" style="background: #f5f9da; height: 500px; width: 100%;"></div>
+		<div id="number3" style="background: #f5f9da; height: 500px; width: 100%;"></div>
+
+		
+		<script>
+			new graphicSVG().numberTime({
+				idElement : "#number",
+				center: true,
+				time: "22:31:11",
+				timeCount: 3
+			});
+
+			new graphicSVG().numberTime({
+				idElement : "#number4",
+				center: true,
+				time: "22:77:63",
+				timeCount: 3,
+				timeSecondsFlag : true
+			});
+			
+			new AnimationSVG().presentTime({
+				idElement 			: "#number2",
+				center				: true,
+				dividerBackground	: "#8355ef",
+				backgroundM 		: ["","orange","","","orange","",""],
+				dividerRadius		: 5,
+				timeCount			: 3,
+				dividerDisplay 		: true
+			}, 500);
+			
+			new AnimationSVG().reverseTime({
+				idElement 			: "#number3",
+				center				: true,
+				time				: "05:00:00",
+				dividerBackground : "orange",
+				dividerRadius : 100
+			});
+			
+		</script>
+	</body>
+
+<html>
