@@ -1,7 +1,7 @@
-# >>>SVGTime
+>>># SVGTime
 # Графическое время
 
-* -> [Пример графического времени](http://nikol73.esy.es/gitHub/number/) <-
+** -> [Пример графического времени](http://nikol73.esy.es/gitHub/number/) <-
 
 Для применения графического времени понадобится подключить 3 javascript файла:
 * 1.  jquery.min.js
