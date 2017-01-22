@@ -26,7 +26,8 @@ center отрисовывает время по всему контенту.
 >		center: true,
 >		time: "22:31:11",
 >	});
-> </script>`
+> </script>
+
 ![screenshot of sample](http://nikol73.esy.es/gitHub/img/number0_center.jpg)
 
 ## 2 Способ.
