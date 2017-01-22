@@ -6,7 +6,7 @@
 * 2.  graphicSVG.js
 * 3.  animationSVG.js
 
-## graphicSVG.js
+##                            graphicSVG.js
 graphicSVG.js - работает c svg, отрисовки графического времени, где svg это - язык разметки xml масштабируемой векторной графики.
 Есть несколько способов применения graphicSVG.js для отрисовки времени:
 
