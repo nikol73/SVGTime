@@ -2,9 +2,9 @@
 # Графическое время
 
 Для применения графического времени понадобится подключить 3 javascript файла:
-1.  jquery.min.js
-2.  graphicSVG.js
-3.  animationSVG.js
+* 1.  jquery.min.js
+* 2.  graphicSVG.js
+* 3.  animationSVG.js
 
 
 graphicSVG.js - работает c svg, отрисовки графического времени, где svg это - язык разметки xml масштабируемой векторной графики.
@@ -19,14 +19,14 @@ center отрисовывает время по всему контенту.
 * idElement : "" - указываем id элемента или класс элемента
 * time : "00:00:00" - указываем время в текстовом формате
 
-`<<div id="number" style="background: #f5f9da; height: 500px; width: 100%;"></div>
+`<div id="number" style="background: #f5f9da; height: 500px; width: 100%;"></div>
  <script>
 	new graphicSVG().numberTime({
 		idElement : "#number",
 		center: true,
 		time: "22:31:11",
 	});
- </script>>`
+ </script>`
 
 ![screenshot of sample](http://nikol73.esy.es/gitHub/img/number0_center.jpg)
 
