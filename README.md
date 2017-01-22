@@ -38,15 +38,35 @@ center отрисовывает время по всему контенту.
 background применяет цвет
 * background : "#dddddd" - изменяем цвет
 
-`<div id="number" style="background: #f5f9da; height: 500px; width: 100%;"></div>
+>```HTML
+<div id="number" style="background: #f5f9da; height: 500px; width: 100%;"></div>
 <script>
 	new graphicSVG().numberTime({
 		idElement : "#number",
 		time: "22:31:11",
 		background: "orange"
 	});
-</script>`
+</script>
+```
 ![screenshot of sample](http://nikol73.esy.es/gitHub/img/number0_background.jpg)
+***
+## 3 Способ.
+Функция numberTime c применением свойства backgroundM
 
+backgroundM записывается массив цветов одной цыфры, где цвета будут применяться ко всем цыфрам одинаково
+* backgroundM : ["цвет","цвет","цвет","цвет","цвет","цвет","цвет"] - максимальное колличесво цветов 7
+
+>```HTML
+<div id="number" style="background: #f5f9da; height: 500px; width: 100%;"></div>
+<script>
+	new graphicSVG().numberTime({
+		idElement : "#number",
+		time: "22:31:11",
+		backgroundM: ["orange","black","red","blue","red","red","red"]
+	});
+</script>
+```
+![screenshot of sample](http://nikol73.esy.es/gitHub/img/number0_backgroundM.jpg)
+***
 
 ![screenshot of sample](http://nikol73.esy.es/gitHub/img/number0.gif)
