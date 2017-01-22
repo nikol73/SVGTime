@@ -6,7 +6,7 @@
 * 2.  graphicSVG.js
 * 3.  animationSVG.js
 
-## <center>graphicSVG.js</center>
+## graphicSVG.js
 graphicSVG.js - работает c svg, отрисовки графического времени, где svg это - язык разметки xml масштабируемой векторной графики.
 Есть несколько способов применения graphicSVG.js для отрисовки времени:
 
@@ -228,6 +228,48 @@ x и y смещать отрисовку графического время п�
 
 ![screenshot of sample](http://nikol73.esy.es/gitHub/img/number0_x_y.jpg)
 
+## animationSVG.js
 
+graphicSVG.js - работает c graphicSVG.js, применяет анимацию к элементам, изменять или убирая что то.
+* idElement - добавленно новое свойство с помощью которого можно указывать сразу несколько ссылок на элементы которые будут работать однавременно
+idElement : "#number1 #number2"
+
+Есть несколько способов применения raphicSVG.js для применения анимации:
+
+### 1 Способ.
+Функция presentTime возвращает текущее время. При этом устанавливая время обработки анимацию.
+
+>```HTML
+<div id="number" style="background: #f5f9da; height: 500px; width: 100%;"></div>
+<script>
+	new AnimationSVG().presentTime({
+		idElement 			: "#number",
+		center				: true,
+		dividerBackground	: "#8355ef",
+		backgroundM 		: ["","orange","","","orange","",""],
+		dividerRadius		: 5,
+		timeCount			: 3,
+		dividerDisplay 		: true
+	}, 500);
+</script>
+```
 
 ![screenshot of sample](http://nikol73.esy.es/gitHub/img/number0.gif)
+### 1 Способ.
+Функция reverseTime возвращает обратный отсчет времени. При этом устанавливая время обработки анимации.
+В свойство time указывает начальный отсчет времени.
+
+>```HTML
+<div id="number" style="background: #f5f9da; height: 500px; width: 100%;"></div>
+<script>
+	new AnimationSVG().reverseTime({
+		idElement 			: "#number",
+		center				: true,
+		time				: "05:00:00",
+		dividerBackground : "orange",
+		dividerRadius : 100
+	});
+</script>
+```
+
+![screenshot of sample](http://nikol73.esy.es/gitHub/img/number01.gif)
