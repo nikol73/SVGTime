@@ -41,7 +41,7 @@ center отрисовывает время по всему блоку.
 background применяет цвет
 * background : "#dddddd" - изменяем цвет
 
->```HTML
+```HTML
 <div id="number" style="background: #f5f9da; height: 500px; width: 100%;"></div>
 <script>
 	new graphicSVG().numberTime({
@@ -60,7 +60,7 @@ background применяет цвет
 backgroundM запись массива цветов для одной цыфры, в итоге цвета будут применяться ко всем цыфрам одинаково
 * backgroundM : ["цвет","цвет","цвет","цвет","цвет","цвет","цвет"] - максимальное колличесво цветов 7
 
->```HTML
+```HTML
 <div id="number" style="background: #f5f9da; height: 500px; width: 100%;"></div>
 <script>
 	new graphicSVG().numberTime({
@@ -80,7 +80,7 @@ backgroundRandom устанавливает рандом цвета, котор�
 * backgroundRandom : true - установить рандом цвета
 * backgroundRandom : false - убрать рандом цвета
 
->```HTML
+```HTML
 <div id="number" style="background: #f5f9da; height: 500px; width: 100%;"></div>
 <script>
 	new graphicSVG().numberTime({
@@ -100,7 +100,7 @@ backgroundRandom устанавливает рандом цвета, котор�
 dividerBackground изменяется цвет разделителей (типа двоиточия)
 * dividerBackground : "цвет"
 
->```HTML
+```HTML
 <div id="number" style="background: #f5f9da; height: 500px; width: 100%;"></div>
 <script>
 	new graphicSVG().numberTime({
@@ -119,7 +119,7 @@ dividerBackground изменяется цвет разделителей (тип
 dividerRadius закругляет углы разделителям (типа двоиточия)
 * dividerRadius : 5 - устанавливает числа от 0 до 100
 
->```HTML
+```HTML
 <div id="number" style="background: #f5f9da; height: 500px; width: 100%;"></div>
 <script>
 	new graphicSVG().numberTime({
@@ -139,7 +139,7 @@ dividerDisplay убирает или отображает разделители
 * dividerDisplay : true - отображается
 * dividerDisplay : false - пропадает
 
->```HTML
+```HTML
 <div id="number" style="background: #f5f9da; height: 500px; width: 100%;"></div>
 <script>
 	new graphicSVG().numberTime({
@@ -158,7 +158,7 @@ dividerDisplay убирает или отображает разделители
 scale устанавливает масштаб отображения графического времени, scale применяется тогда когда свойство center принимает значение false
 * scale : 1.2 - пишется дробное число
 
->```HTML
+```HTML
 <div id="number" style="background: #f5f9da; height: 500px; width: 100%;"></div>
 <script>
 	new graphicSVG().numberTime({
@@ -177,7 +177,7 @@ scale устанавливает масштаб отображения граф�
 timeCount приходит число отображений, какие числа должны отображаться при отрисовки графического времени
 * timeCount : 2 - будет показывать только часы и минуты
 
->```HTML
+```HTML
 <div id="number" style="background: #f5f9da; height: 500px; width: 100%;"></div>
 <script>
 	new graphicSVG().numberTime({
@@ -197,7 +197,7 @@ timeSecondsFlag показывает секунды в другом формат
 * timeSecondsFlag : true - отрисовка секунд в другом формате
 * timeSecondsFlag : false - не отрисовывать секунды в другом формате
 
->```HTML
+```HTML
 <div id="number" style="background: #f5f9da; height: 500px; width: 100%;"></div>
 <script>
 	new graphicSVG().numberTime({
@@ -217,7 +217,7 @@ x и y смещает отрисовку графического времени
 * x : 150 - смещение по x
 * y : 10 - смещение по y
 
->```HTML
+```HTML
 <div id="number" style="background: #f5f9da; height: 500px; width: 100%;"></div>
 <script>
 	new graphicSVG().numberTime({
@@ -245,7 +245,7 @@ idElements : "#number1 #number2"
 ### 1 Способ.
 Функция ***presentTime*** возвращает текущее время. При этом устанавливая время обработки анимацию.
 
->```HTML
+```HTML
 <div id="number" style="background: #f5f9da; height: 500px; width: 100%;"></div>
 <script>
 	new AnimationSVG().presentTime({
@@ -265,7 +265,7 @@ idElements : "#number1 #number2"
 Функция ***reverseTime*** возвращает обратный отсчет времени. При этом устанавливая время обработки анимации.
 В свойство time указываем начальный отсчет времени.
 
->```HTML
+```HTML
 <div id="number" style="background: #f5f9da; height: 500px; width: 100%;"></div>
 <script>
 	new AnimationSVG().reverseTime({
